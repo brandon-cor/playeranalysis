@@ -2,7 +2,7 @@
 
 import csv
 list = []
-with open('Player_A_Diop.csv', encoding="utf-8") as f:
+with open('Player_A_Diop.csv', encoding="utf-8") as f:q
     csv_reader = csv.reader(f)
     for line in csv_reader:
         # print(line)
